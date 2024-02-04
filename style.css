@@ -1,0 +1,238 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'K2D', sans-serif;
+    scroll-behavior: smooth;
+    
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+html{
+    background-color: #03142D;
+}
+
+h1{
+    color: aliceblue;
+    font-size: 100px;   
+    font-weight: 400;
+
+}
+
+h2{
+    color: aliceblue;
+    font-size: 30px;   
+    font-weight: 400;
+}
+
+p{
+    color: aliceblue;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 40px;   
+    font-weight: 400;
+    transition-duration: 0.3s;
+    transition-delay: 0.1s;
+}
+
+a:hover{
+    font-weight: bolder;
+}
+
+#background_container{
+    background-image: url(assets/space_11.png    ); 
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+#horizontal_blur{
+    position: absolute;
+    top: 77vh;
+    width: 100vw;
+    min-height: 23vh;
+    background: rgb(4,21,45); 
+    background: linear-gradient(180deg, rgba(4,21,45,0) 0%, rgba(3,20,45,1) 100%);
+ }
+
+#blur{
+    position: absolute;
+    left: 20vw;
+    top: -300px;
+    max-width: 100vw;
+    rotate: 46deg;
+}
+
+#main_text{
+    margin-top: 30px;
+    max-width: 853px;
+}
+
+#socials{
+    margin-top: 40px;
+    display: flex;
+    max-width: 300px;
+    justify-content: space-between;
+
+}
+
+#ancors{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#first_page{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+#second_page{
+    background-color: #03142D;
+}
+
+#navbar{
+    z-index: 1000;
+    background-color: #03142d;
+}
+
+#navbar_content{
+    display: flex;
+    align-items: center;
+    max-width: 35vw;
+    justify-content: space-between;
+    padding-left: 12vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+#navbar a{
+    font-weight: lighter;
+    font-size: 35px;
+}
+
+#navbar a:hover{
+    font-weight: 600;
+}
+
+#projects{
+    padding-top: 80px;
+    padding-bottom: 160px;
+}
+
+#projects_content{
+    background-image: url(assets/Rectangle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.paragraph{
+    display: flex;
+    flex-direction: column;
+    max-width: 615px;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    max-width: 180px;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+#larger{
+    padding-left: 40px;
+}
+
+.title{
+    font-weight: bolder;
+    font-size: 46px;
+    padding-bottom: 30px;
+}
+
+.text{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.odd_project{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.odd_project .links{
+    padding-left: 55px;
+}
+
+.even_project{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.odd_project p{
+    padding-left: 55px;
+    max-width: 510px;
+    
+}
+
+.even_project p{
+    max-width: 510px;
+    padding-right: 55px;
+}
+
+#my_info{
+    padding-left: 52px;
+}
+
+#about_me{
+    background-image: url(assets/about_me_rectangle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row ;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    
+}
+
+#about_me .text{
+    max-width: 790px;
+    padding-bottom: 20px;
+}
+
+.contact{
+    font-weight: 100;
+    font-size: 20px;
+    color: #b6b6b6;
+}
+
+
+.content {
+    padding: 40px;
+    margin-top: 50px; /* Para compensar a altura da barra de navegação */
+}
+
+
+
